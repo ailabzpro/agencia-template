@@ -15,7 +15,7 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 43 65% 55%;
+    --primary: 241 52% 63%;
     --primary-foreground: 0 0% 4%;
 
     --secondary: 0 0% 12%;
@@ -24,7 +24,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 55%;
 
-    --accent: 43 65% 55%;
+    --accent: 241 52% 63%;
     --accent-foreground: 0 0% 4%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,18 +32,18 @@
 
     --border: 0 0% 16%;
     --input: 0 0% 16%;
-    --ring: 43 65% 55%;
+    --ring: 241 52% 63%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 6%;
     --sidebar-foreground: 0 0% 85%;
-    --sidebar-primary: 43 65% 55%;
+    --sidebar-primary: 241 52% 63%;
     --sidebar-primary-foreground: 0 0% 4%;
     --sidebar-accent: 0 0% 12%;
     --sidebar-accent-foreground: 0 0% 85%;
     --sidebar-border: 0 0% 16%;
-    --sidebar-ring: 43 65% 55%;
+    --sidebar-ring: 241 52% 63%;
   }
 }
 
@@ -59,7 +59,7 @@
 
 @layer utilities {
   .text-gradient-gold {
-    background: linear-gradient(135deg, hsl(43 65% 55%), hsl(43 80% 70%));
+    background: linear-gradient(135deg, hsl(241 52% 63%), hsl(241 60% 75%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
