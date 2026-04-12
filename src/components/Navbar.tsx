@@ -22,10 +22,12 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="default" size="sm" className="gap-2">
-            Quero mais clientes
-            <ExternalLink className="w-3.5 h-3.5" />
-          </Button>
+          <a href="https://wa.me/5512953691967?text=Ol%C3%A1%21%20Vi%20o%20material%20da%20ag%C3%AAncia%20e%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20e%20como%20voc%C3%AAs%20podem%20me%20ajudar." target="_blank" rel="noopener noreferrer">
+            <Button variant="default" size="sm" className="gap-2">
+              Quero mais clientes
+              <ExternalLink className="w-3.5 h-3.5" />
+            </Button>
+          </a>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setMobileOpen(!mobileOpen)}>
@@ -37,10 +39,12 @@ const Navbar = () => {
         <div className="md:hidden mt-2 rounded-2xl border border-border bg-background/95 backdrop-blur-xl p-6 space-y-4">
           <a href="#servicos" className="block text-sm text-muted-foreground">Serviços</a>
           <a href="#metodo" className="block text-sm text-muted-foreground">Como funciona</a>
-          <Button variant="default" size="sm" className="w-full gap-2">
-            Quero mais clientes
-            <ExternalLink className="w-3.5 h-3.5" />
-          </Button>
+          <a href="https://wa.me/5512953691967?text=Ol%C3%A1%21%20Vi%20o%20material%20da%20ag%C3%AAncia%20e%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20e%20como%20voc%C3%AAs%20podem%20me%20ajudar." target="_blank" rel="noopener noreferrer" className="w-full">
+            <Button variant="default" size="sm" className="w-full gap-2">
+              Quero mais clientes
+              <ExternalLink className="w-3.5 h-3.5" />
+            </Button>
+          </a>
         </div>
       )}
     </nav>

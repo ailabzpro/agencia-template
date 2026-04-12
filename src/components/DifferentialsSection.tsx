@@ -44,10 +44,12 @@ const DifferentialsSection = () => {
         </div>
 
         <div className="text-center">
-          <Button size="lg" className="gap-2 rounded-full">
-            Quero mais clientes
-            <ExternalLink className="w-4 h-4" />
-          </Button>
+          <a href="https://wa.me/5512953691967?text=Ol%C3%A1%21%20Vi%20o%20material%20da%20ag%C3%AAncia%20e%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20e%20como%20voc%C3%AAs%20podem%20me%20ajudar." target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="gap-2 rounded-full">
+              Quero mais clientes
+              <ExternalLink className="w-4 h-4" />
+            </Button>
+          </a>
           <p className="text-muted-foreground text-sm mt-4">
             Agende uma <em className="text-foreground">conversa rápida</em> e entenda o que está travando seu crescimento.
           </p>
