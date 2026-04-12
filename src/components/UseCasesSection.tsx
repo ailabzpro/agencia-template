@@ -2,12 +2,12 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const useCases = [
-  { title: "Operações e Processos", description: "Tem um processo na sua empresa que precisa acontecer mais rápido? Criamos Agentes de IA e sistemas sob medida pra automatizar tudo o que você imaginar." },
-  { title: "CRM e Vendas", description: "A IA conversa com leads, entende intenções e prioriza oportunidades reais. Automatiza respostas, nutre contatos e acelera o fechamento de vendas." },
-  { title: "Logística", description: "A IA entende o ritmo da sua operação, da produção ao estoque, prevendo demandas, otimizando rotas e acelerando entregas." },
-  { title: "Criação e Conteúdo", description: "A IA virou o estúdio. Ela gera cenários, vídeos, imagens e campanhas completas em minutos, criando tudo do zero com base na sua ideia." },
-  { title: "Dados e Insights", description: "A IA lê seus dados, identifica padrões e revela oportunidades escondidas. Cria relatórios inteligentes e previsões que guiam suas decisões." },
-  { title: "Atendimento ao Cliente", description: "Agentes de IA aprendem com suas informações e atendem seus clientes em qualquer canal, com respostas rápidas, humanas e personalizadas." },
+  { title: "Prestadores de Serviços", description: "Advogados, médicos, arquitetos, consultores. Se você vende expertise, a gente te coloca na frente de quem está procurando exatamente o que você faz — antes do concorrente aparecer." },
+  { title: "Estabelecimentos Físicos", description: "Restaurantes, clínicas, academias, salões. Fazemos sua empresa aparecer quando o cliente abre o Google Maps, pesquisa no bairro ou pergunta para uma IA onde ir." },
+  { title: "Construtoras e Imobiliárias", description: "Geramos leads qualificados para vendas de alto ticket com campanhas segmentadas por localização, renda e intenção de compra real." },
+  { title: "E-commerces e Lojas Digitais", description: "Tráfego pago e SEO para aumentar o volume de pedidos e reduzir o custo por aquisição de cliente. Mais vendas, menos desperdício de verba." },
+  { title: "Franquias e Redes", description: "Estratégias escaláveis para múltiplas unidades com identidade visual consistente e controle de resultado por filial." },
+  { title: "Negócios em Crescimento", description: "Se você tem produto bom e quer escalar, montamos a operação de marketing digital do zero — tráfego, conteúdo, SEO e visibilidade em IA." },
 ];
 
 const UseCasesSection = () => {
@@ -20,12 +20,12 @@ const UseCasesSection = () => {
     <section className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="section-label mb-6">O QUE A IA FAZ POR VOCÊ</p>
+          <p className="section-label mb-6">PARA QUEM TRABALHAMOS</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            É <em className="text-gradient-gold italic">muito mais</em> que automação.
+            Seu negócio <em className="text-gradient-gold italic">se encaixa</em> aqui.
           </h2>
           <p className="text-muted-foreground text-lg">
-            É inteligência estratégica para cada setor do seu negócio.
+            Atendemos nichos específicos com estratégias sob medida — sem template genérico.
           </p>
         </div>
 

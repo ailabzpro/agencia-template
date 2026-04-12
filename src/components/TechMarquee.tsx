@@ -1,15 +1,15 @@
 const techs = [
-  "Hugging Face", "Meta AI", "Vertex AI", "LangChain",
-  "OpenAI", "Gemini", "Anthropic", "Replicate", "Grok",
+  "Meta Ads", "Google Ads", "YouTube", "Instagram", "TikTok",
+  "Google Meu Negócio", "ChatGPT", "Perplexity", "Gemini", "Claude", "SEO", "Google Analytics",
 ];
 
 const TechMarquee = () => {
   return (
     <section className="py-16 overflow-hidden border-y border-border">
       <p className="text-center text-muted-foreground text-sm mb-8">
-        Tecnologias que usamos para gerar <em className="text-foreground">crescimento com IA.</em>
+        Canais e plataformas onde fazemos seu negócio <em className="text-foreground">aparecer e vender.</em>
       </p>
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div className="flex animate-marquee whitespace-nowrap">
           {[...techs, ...techs].map((tech, i) => (
             <span

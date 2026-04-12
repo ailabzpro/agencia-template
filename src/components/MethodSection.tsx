@@ -2,10 +2,10 @@ import { ExternalLink, Search, BookOpen, Code, Rocket } from "lucide-react";
 import { Button } from "./ui/button";
 
 const pillars = [
-  { icon: Search, step: "01", title: "Validar", description: "Diagnóstico estratégico para identificar onde a IA gera mais impacto." },
-  { icon: BookOpen, step: "02", title: "Educar", description: "Letramento e capacitação para sua equipe dominar a IA." },
-  { icon: Code, step: "03", title: "Desenvolver", description: "Construção de agentes e sistemas sob medida." },
-  { icon: Rocket, step: "04", title: "Escalar", description: "Acompanhamento e evolução contínua dos resultados." },
+  { icon: Search, step: "01", title: "Diagnóstico", description: "Analisamos sua presença atual, seus concorrentes e as oportunidades reais antes de propor qualquer coisa." },
+  { icon: BookOpen, step: "02", title: "Estratégia", description: "Definimos quais canais, formatos e mensagens vão funcionar para o seu negócio e o seu público específico." },
+  { icon: Code, step: "03", title: "Execução", description: "Colocamos a mão na massa. Tráfego, vídeo, SEO ou visibilidade em IA — entregamos com padrão e agilidade." },
+  { icon: Rocket, step: "04", title: "Crescimento", description: "Monitoramos os resultados, ajustamos o que precisa e escalamos o que funciona. Resultado constante, mês a mês." },
 ];
 
 const MethodSection = () => {
@@ -13,12 +13,12 @@ const MethodSection = () => {
     <section id="metodo" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="section-label mb-6">TRANSFORMAÇÃO AI FIRST</p>
+          <p className="section-label mb-6">COMO TRABALHAMOS</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Os <em className="text-gradient-gold italic">4 pilares</em> do Método Brabaflow
+            Os <em className="text-gradient-gold italic">4 passos</em> para colocar seu negócio onde ele merece
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-            Colocar Inteligência Artificial no centro do seu negócio exige método: validar a estratégia, educar equipes, desenvolver solução e escalar.
+            Método claro, execução firme. Cada fase existe por uma razão — e todas apontam para o mesmo lugar: resultado concreto para o seu negócio.
           </p>
         </div>
 
@@ -35,11 +35,11 @@ const MethodSection = () => {
 
         <div className="text-center">
           <Button size="lg" className="gap-2 rounded-full">
-            Entender como funciona
+            Quero crescer agora
             <ExternalLink className="w-4 h-4" />
           </Button>
           <p className="text-muted-foreground text-sm mt-4">
-            Agende uma <em className="text-foreground">conversa rápida</em> para alinhar expectativas.
+            Agende uma <em className="text-foreground">conversa rápida</em> — sem compromisso.
           </p>
         </div>
       </div>

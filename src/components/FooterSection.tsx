@@ -6,34 +6,34 @@ const FooterSection = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-3">Navegação</h4>
             <div className="space-y-2">
-              <a href="#" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Falar com um consultor</a>
-              <a href="#newsletter" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Newsletter</a>
+              <a href="#" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Falar com um especialista</a>
+              <a href="#servicos" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Serviços</a>
+              <a href="#metodo" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Como funciona</a>
             </div>
           </div>
           <div>
             <h4 className="font-semibold text-foreground mb-3">Empresa</h4>
             <div className="space-y-2">
-              <p className="text-sm text-muted-foreground">Brabaflow Ltda</p>
-              <p className="text-sm text-muted-foreground">CNPJ 54.426.112/0001-38</p>
+              <p className="text-sm text-muted-foreground">AILABZ PRO Marketing Agency</p>
             </div>
           </div>
           <div>
-            <h4 className="font-semibold text-foreground mb-3">Endereço</h4>
+            <h4 className="font-semibold text-foreground mb-3">Serviços</h4>
             <div className="space-y-2">
-              <p className="text-sm text-muted-foreground">Al Rio Negro, 503</p>
-              <p className="text-sm text-muted-foreground">Alphaville, São Paulo</p>
+              <p className="text-sm text-muted-foreground">Tráfego Pago</p>
+              <p className="text-sm text-muted-foreground">Edição de Vídeo</p>
+              <p className="text-sm text-muted-foreground">SEO</p>
+              <p className="text-sm text-muted-foreground">Google Meu Negócio</p>
+              <p className="text-sm text-muted-foreground">Presença em IAs</p>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xs">B</span>
-            </div>
-            <span className="font-bold text-foreground">Brabaflow</span>
+          <div className="flex items-center">
+            <img src="/assets/ailabz-logo.svg" alt="AILABZ PRO" className="h-6 w-auto" />
           </div>
-          <p className="text-xs text-muted-foreground">© 2026 Brabaflow. Todos os direitos reservados.</p>
+          <p className="text-xs text-muted-foreground">© 2026 AILABZ PRO. Todos os direitos reservados.</p>
           <div className="flex gap-4">
             <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Política de Privacidade</a>
             <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">Termos de Uso</a>

@@ -8,17 +8,17 @@ const CTASection = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent" />
         <div className="relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Faça <em className="text-gradient-gold italic">a IA</em> trabalhar por você
+            Pronto para ter <em className="text-gradient-gold italic">clientes chegando</em> até você?
           </h2>
           <p className="text-muted-foreground text-lg mb-8">
-            Empresas que adotam IA crescem até 3x mais rápido.
+            Negócios que investem em marketing com estratégia crescem de forma consistente. O seu pode ser o próximo.
           </p>
           <Button size="lg" className="gap-2 rounded-full text-base px-8 py-6">
-            Entender como funciona
+            Quero mais clientes agora
             <ExternalLink className="w-4 h-4" />
           </Button>
           <p className="text-muted-foreground text-sm mt-4">
-            Agende uma <em className="text-foreground">conversa rápida</em> para alinhar expectativas.
+            Agende uma <em className="text-foreground">conversa rápida</em> — sem enrolação, sem compromisso.
           </p>
         </div>
       </div>

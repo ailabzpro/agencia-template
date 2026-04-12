@@ -2,12 +2,20 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 
 const faqs = [
   {
-    question: "Quem é a Brabaflow?",
-    answer: "A Brabaflow é uma agência nativa de IA que ajuda empresas tradicionais a se tornarem AI First. Combinamos estratégia, educação e tecnologia para transformar negócios com inteligência artificial.",
+    question: "Como funciona o pagamento dos serviços?",
+    answer: "Nossos serviços são contratados por pacote com pagamento único para 30 dias de serviço, ou em modelo recorrente (assinatura mensal). Você escolhe o que faz mais sentido para o seu fluxo de caixa. Em ambos os casos, a entrega e os processos são os mesmos.",
   },
   {
-    question: "O que a Brabaflow faz?",
-    answer: "Oferecemos análise estratégica, letramento em IA, consultoria em GenAI e desenvolvimento de agentes e sistemas de IA sob medida. Do diagnóstico à implementação, ajudamos sua empresa a multiplicar produtividade.",
+    question: "Vocês trabalham com todo tipo de negócio?",
+    answer: "Somos especializados em prestadores de serviços, estabelecimentos físicos, construtoras e empresas que buscam presença digital que converte. Se você tem um negócio sólido e quer crescer, provavelmente trabalhamos bem juntos — basta uma conversa para descobrir.",
+  },
+  {
+    question: "Quanto tempo leva para ver resultado?",
+    answer: "Depende do serviço. Tráfego pago gera resultado em dias. SEO leva de 3 a 6 meses para ganhar tração consistente. Na primeira conversa, falamos exatamente o que esperar para o seu caso específico — sem promessa vaga.",
+  },
+  {
+    question: "Vocês criam os criativos e vídeos também?",
+    answer: "Sim. A edição de vídeo e a criação de criativos para anúncios fazem parte dos nossos serviços. Você manda o material bruto e a gente entrega pronto para rodar nas plataformas.",
   },
 ];
 
@@ -18,7 +26,7 @@ const FAQSection = () => {
         <div className="text-center mb-16">
           <p className="section-label mb-6">PERGUNTAS FREQUENTES</p>
           <h2 className="text-3xl md:text-5xl font-bold">
-            As <em className="text-gradient-gold italic">2 perguntas</em> que recebemos antes de toda grande parceria.
+            As perguntas que todo <em className="text-gradient-gold italic">dono de negócio</em> faz antes de fechar.
           </h2>
         </div>
 

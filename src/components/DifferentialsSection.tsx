@@ -4,18 +4,18 @@ import { Button } from "./ui/button";
 const items = [
   {
     icon: Shield,
-    title: "Segurança e governança",
-    description: "Implementamos IA com proteção de dados, controle total e políticas claras desde o dia 1.",
+    title: "Entrega previsível, sempre",
+    description: "Cada serviço segue um processo interno consolidado. Você recebe o que foi combinado, no prazo, com qualidade consistente — sem surpresas.",
   },
   {
     icon: TrendingUp,
-    title: "ROI comprovado",
-    description: "Priorizamos IA que aumenta receita ou reduz custos, não só automação por automação.",
+    title: "Métricas que importam",
+    description: "Não vendemos vaidade. Medimos leads gerados, custo por aquisição e retorno real sobre o investimento. Resultado visível, mês a mês.",
   },
   {
     icon: Globe,
-    title: "Equipe global",
-    description: "Unimos especialistas pelo mundo para soluções em IA sob medida. Alcance global, execução local.",
+    title: "Sua identidade, nos canais certos",
+    description: "Nunca mudamos o que te diferencia. Usamos sua voz e identidade para falar com o público certo, no canal certo, na hora certa.",
   },
 ];
 
@@ -26,10 +26,10 @@ const DifferentialsSection = () => {
         <div className="text-center mb-16">
           <p className="section-label mb-6">DIFERENCIAIS</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Por que <em className="text-gradient-gold italic">escolher</em> a Brabaflow?
+            Por que <em className="text-gradient-gold italic">escolher</em> a AILABZ PRO?
           </h2>
           <p className="text-muted-foreground text-lg">
-            Não somos devs vendendo IA. Somos estrategistas que entendem de negócio, gente e tecnologia.
+            Não somos agência genérica. Somos especialistas em resultado para negócios que querem crescer de verdade.
           </p>
         </div>
 
@@ -45,11 +45,11 @@ const DifferentialsSection = () => {
 
         <div className="text-center">
           <Button size="lg" className="gap-2 rounded-full">
-            Entender como funciona
+            Quero mais clientes
             <ExternalLink className="w-4 h-4" />
           </Button>
           <p className="text-muted-foreground text-sm mt-4">
-            Agende uma <em className="text-foreground">conversa rápida</em> para alinhar expectativas.
+            Agende uma <em className="text-foreground">conversa rápida</em> e entenda o que está travando seu crescimento.
           </p>
         </div>
       </div>
