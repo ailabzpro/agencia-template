@@ -1,0 +1,300 @@
+{
+  "agency": {
+    "name": "AILABZ PRO",
+    "slug": "ailabz-pro",
+    "niche": "Agência de Marketing Digital",
+    "audience": "Donos de negócio que querem crescer online com estratégia",
+    "tone": "direto",
+    "whatsapp": "5512953691967",
+    "instagram": "ailabzpro"
+  },
+  "branding": {
+    "primaryHsl": "241 52% 63%",
+    "accentHsl": "241 60% 75%",
+    "font": "Inter",
+    "logoUrl": "/assets/ailabz-logo.svg"
+  },
+  "navbar": {
+    "ctaText": "Quero mais clientes",
+    "ctaLink": "Olá! Vi o material da agência e quero saber mais sobre os serviços e como vocês podem me ajudar."
+  },
+  "hero": {
+    "label": "AGÊNCIA DE MARKETING DIGITAL",
+    "headlineParts": [
+      { "text": "Marketing que atrai " },
+      { "text": "clientes reais", "highlight": true },
+      { "text": ", não só seguidores" }
+    ],
+    "subtitle": "Nosso objetivo não é 'rodar anúncio'.\nÉ gerar cliente no seu caixa.",
+    "ctaText": "Quero crescer agora",
+    "ctaSubtext": "Agende uma conversa rápida para entender o que falta no seu negócio.",
+    "marqueeLabel": "Ferramentas que dominamos para escalar seu negócio."
+  },
+  "problem": {
+    "label": "SE O SEU NEGÓCIO AINDA NÃO CRESCE ONLINE",
+    "title": "Você investe em marketing, mas os resultados não aparecem?",
+    "points": [
+      {
+        "title": "Anúncios sem estratégia",
+        "description": "Muitos donos de negócio jogam dinheiro fora em anúncios sem estratégia."
+      },
+      {
+        "title": "Perdendo para concorrentes",
+        "description": "Perdem clientes para concorrentes que aparecem primeiro no Google."
+      },
+      {
+        "title": "Invisível nas buscas por IA",
+        "description": "Ficam invisíveis quando o público pergunta para ChatGPT, Claude ou Gemini."
+      }
+    ],
+    "ctaText": "Quero resolver isso agora",
+    "ctaSubtext": "Agende uma conversa rápida para entender o que está travando seu crescimento."
+  },
+  "services": {
+    "label": "NOSSOS SERVIÇOS",
+    "title": "Do anúncio ao cliente na porta. Executamos tudo.",
+    "subtitle": "Cada serviço é entregue com processo padronizado, métricas claras e foco total no resultado do seu negócio.",
+    "items": [
+      {
+        "icon": "BarChart3",
+        "title": "Tráfego Pago (Meta & Google Ads)",
+        "description": "Criamos e gerenciamos campanhas em Meta Ads e Google Ads para atrair os clientes certos, no momento certo. Sem achismo — só dado e resultado mensurável.",
+        "tags": ["Meta Ads", "Google Ads"],
+        "chart": {
+          "type": "area",
+          "metric": "3.8×",
+          "label": "ROAS médio em 6 meses",
+          "colorHsl": "241 52% 63%",
+          "data": [
+            { "x": "Jan", "y": 1.2 },
+            { "x": "Fev", "y": 1.6 },
+            { "x": "Mar", "y": 2.1 },
+            { "x": "Abr", "y": 2.8 },
+            { "x": "Mai", "y": 3.4 },
+            { "x": "Jun", "y": 3.8 }
+          ]
+        }
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Edição de Vídeo Profissional",
+        "description": "Transformamos seus vídeos brutos em conteúdo de alta performance para redes sociais e anúncios. Corte, legenda, motion e entrega rápida.",
+        "tags": ["Reels", "Anúncios"],
+        "chart": {
+          "type": "bar",
+          "metric": "+340%",
+          "label": "alcance médio por vídeo",
+          "colorHsl": "330 75% 60%",
+          "data": [
+            { "x": "Jan", "y": 12 },
+            { "x": "Fev", "y": 19 },
+            { "x": "Mar", "y": 28 },
+            { "x": "Abr", "y": 41 },
+            { "x": "Mai", "y": 58 },
+            { "x": "Jun", "y": 53 }
+          ]
+        }
+      },
+      {
+        "icon": "Settings",
+        "title": "SEO e Ranqueamento Orgânico",
+        "description": "Fazemos sua empresa aparecer nas primeiras posições do Google sem pagar por clique. Tráfego qualificado, constante e crescente mês a mês.",
+        "tags": ["Google", "Orgânico"],
+        "chart": {
+          "type": "area",
+          "metric": "+550%",
+          "label": "tráfego orgânico em 6 meses",
+          "colorHsl": "142 71% 45%",
+          "data": [
+            { "x": "Jan", "y": 800 },
+            { "x": "Fev", "y": 920 },
+            { "x": "Mar", "y": 1200 },
+            { "x": "Abr", "y": 1900 },
+            { "x": "Mai", "y": 3100 },
+            { "x": "Jun", "y": 5200 }
+          ]
+        }
+      },
+      {
+        "icon": "Bot",
+        "title": "Presença em Buscas por IA",
+        "description": "Otimizamos sua empresa para ser citada quando alguém perguntar ao ChatGPT, Claude, Gemini ou Perplexity. O futuro da busca já chegou — esteja nele.",
+        "tags": ["ChatGPT", "Gemini"],
+        "chart": {
+          "type": "bar",
+          "metric": "13×",
+          "label": "mais citações em IAs",
+          "colorHsl": "197 90% 55%",
+          "data": [
+            { "x": "Jan", "y": 2 },
+            { "x": "Fev", "y": 4 },
+            { "x": "Mar", "y": 7 },
+            { "x": "Abr", "y": 12 },
+            { "x": "Mai", "y": 19 },
+            { "x": "Jun", "y": 26 }
+          ]
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "label": "PARA QUEM TRABALHAMOS",
+    "title": "Seu negócio se encaixa aqui.",
+    "subtitle": "Atendemos nichos específicos com estratégias sob medida — sem template genérico.",
+    "items": [
+      {
+        "title": "Prestadores de Serviços",
+        "description": "Advogados, médicos, arquitetos, consultores. Se você vende expertise, a gente te coloca na frente de quem está procurando exatamente o que você faz — antes do concorrente aparecer."
+      },
+      {
+        "title": "Estabelecimentos Físicos",
+        "description": "Restaurantes, clínicas, academias, salões. Fazemos sua empresa aparecer quando o cliente abre o Google Maps, pesquisa no bairro ou pergunta para uma IA onde ir."
+      },
+      {
+        "title": "Construtoras e Imobiliárias",
+        "description": "Geramos leads qualificados para vendas de alto ticket com campanhas segmentadas por localização, renda e intenção de compra real."
+      },
+      {
+        "title": "E-commerces e Lojas Digitais",
+        "description": "Tráfego pago e SEO para aumentar o volume de pedidos e reduzir o custo por aquisição de cliente. Mais vendas, menos desperdício de verba."
+      },
+      {
+        "title": "Franquias e Redes",
+        "description": "Estratégias escaláveis para múltiplas unidades com identidade visual consistente e controle de resultado por filial."
+      },
+      {
+        "title": "Negócios em Crescimento",
+        "description": "Se você tem produto bom e quer escalar, montamos a operação de marketing digital do zero — tráfego, conteúdo, SEO e visibilidade em IA."
+      }
+    ]
+  },
+  "techMarquee": {
+    "label": "Canais e plataformas onde fazemos seu negócio aparecer e vender.",
+    "items": [
+      "Meta Ads",
+      "Google Ads",
+      "YouTube",
+      "Instagram",
+      "TikTok",
+      "Google Meu Negócio",
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude",
+      "SEO",
+      "Google Analytics"
+    ]
+  },
+  "differentials": {
+    "label": "DIFERENCIAIS",
+    "title": "Por que escolher a AILABZ PRO?",
+    "subtitle": "Não somos agência genérica. Somos especialistas em resultado para negócios que querem crescer de verdade.",
+    "items": [
+      {
+        "icon": "Shield",
+        "title": "Entrega previsível, sempre",
+        "description": "Cada serviço segue um processo interno consolidado. Você recebe o que foi combinado, no prazo, com qualidade consistente — sem surpresas."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Métricas que importam",
+        "description": "Não vendemos vaidade. Medimos leads gerados, custo por aquisição e retorno real sobre o investimento. Resultado visível, mês a mês."
+      },
+      {
+        "icon": "Globe",
+        "title": "Sua identidade, nos canais certos",
+        "description": "Nunca mudamos o que te diferencia. Usamos sua voz e identidade para falar com o público certo, no canal certo, na hora certa."
+      }
+    ],
+    "ctaText": "Quero mais clientes",
+    "ctaSubtext": "Agende uma conversa rápida e entenda o que está travando seu crescimento."
+  },
+  "method": {
+    "label": "COMO TRABALHAMOS",
+    "title": "Os 4 passos para colocar seu negócio onde ele merece",
+    "subtitle": "Método claro, execução firme. Cada fase existe por uma razão — e todas apontam para o mesmo lugar: resultado concreto para o seu negócio.",
+    "steps": [
+      {
+        "icon": "Search",
+        "number": "01",
+        "title": "Diagnóstico",
+        "description": "Analisamos sua presença atual, seus concorrentes e as oportunidades reais antes de propor qualquer coisa."
+      },
+      {
+        "icon": "BookOpen",
+        "number": "02",
+        "title": "Estratégia",
+        "description": "Definimos quais canais, formatos e mensagens vão funcionar para o seu negócio e o seu público específico."
+      },
+      {
+        "icon": "Code",
+        "number": "03",
+        "title": "Execução",
+        "description": "Colocamos a mão na massa. Tráfego, vídeo, SEO ou visibilidade em IA — entregamos com padrão e agilidade."
+      },
+      {
+        "icon": "Rocket",
+        "number": "04",
+        "title": "Crescimento",
+        "description": "Monitoramos os resultados, ajustamos o que precisa e escalamos o que funciona. Resultado constante, mês a mês."
+      }
+    ],
+    "ctaText": "Quero crescer agora",
+    "ctaSubtext": "Agende uma conversa rápida — sem compromisso."
+  },
+  "faq": {
+    "label": "PERGUNTAS FREQUENTES",
+    "title": "As perguntas que todo dono de negócio faz antes de fechar.",
+    "items": [
+      {
+        "question": "Como funciona o pagamento dos serviços?",
+        "answer": "Nossos serviços são contratados por pacote com pagamento único para 30 dias de serviço, ou em modelo recorrente (assinatura mensal). Você escolhe o que faz mais sentido para o seu fluxo de caixa. Em ambos os casos, a entrega e os processos são os mesmos."
+      },
+      {
+        "question": "Vocês trabalham com todo tipo de negócio?",
+        "answer": "Somos especializados em prestadores de serviços, estabelecimentos físicos, construtoras e empresas que buscam presença digital que converte. Se você tem um negócio sólido e quer crescer, provavelmente trabalhamos bem juntos — basta uma conversa para descobrir."
+      },
+      {
+        "question": "Quanto tempo leva para ver resultado?",
+        "answer": "Depende do serviço. Tráfego pago gera resultado em dias. SEO leva de 3 a 6 meses para ganhar tração consistente. Na primeira conversa, falamos exatamente o que esperar para o seu caso específico — sem promessa vaga."
+      },
+      {
+        "question": "Vocês criam os criativos e vídeos também?",
+        "answer": "Sim. A edição de vídeo e a criação de criativos para anúncios fazem parte dos nossos serviços. Você manda o material bruto e a gente entrega pronto para rodar nas plataformas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para ter clientes chegando até você?",
+    "subtitle": "Negócios que investem em marketing com estratégia crescem de forma consistente. O seu pode ser o próximo.",
+    "buttonText": "Quero mais clientes agora",
+    "ctaSubtext": "Agende uma conversa rápida — sem enrolação, sem compromisso."
+  },
+  "footer": {
+    "columns": [
+      {
+        "heading": "Navegação",
+        "links": [
+          { "label": "Falar com um especialista", "url": "#" },
+          { "label": "Serviços", "url": "#servicos" },
+          { "label": "Como funciona", "url": "#metodo" }
+        ]
+      },
+      {
+        "heading": "Serviços",
+        "links": [
+          { "label": "Tráfego Pago", "url": "#servicos" },
+          { "label": "Edição de Vídeo", "url": "#servicos" },
+          { "label": "SEO", "url": "#servicos" },
+          { "label": "Presença em IAs", "url": "#servicos" }
+        ]
+      }
+    ],
+    "companyName": "AILABZ PRO Marketing Agency",
+    "copyright": "© 2026 AILABZ PRO. Todos os direitos reservados.",
+    "legalLinks": [
+      { "label": "Política de Privacidade", "url": "#" },
+      { "label": "Termos de Uso", "url": "#" }
+    ]
+  }
+}
